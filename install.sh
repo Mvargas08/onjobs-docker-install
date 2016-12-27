@@ -1,4 +1,4 @@
 #!/bin/bash
-docker rm -fv onJobs-rest-api-$1
-docker build -t onJobs-rest-api .
-docker run -d --privileged=true --name onJobs-rest-api-$1 -p $1:8084 onJobs-rest-api
+docker rm -fv onjobs-rest-api-$1
+docker build -t onjobs-rest-api .
+docker run -d --privileged=true --name onjobs-rest-api-$1 -p $1:8084 onjobs-rest-api
