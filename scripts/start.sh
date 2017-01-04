@@ -1,2 +1,2 @@
 #!/bin/bash
-forever /root/onjobs-rest-api/onjobs/app.js
+forever /root/despachalo-rest-api/despachalo/app.js
